@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "launchBackground.png"
+      "filename" : "instaLog.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "launchBackground@2x.png"
+      "filename" : "instaLog@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "launchBackground@3x.png"
+      "filename" : "instaLog@3x.png"
     }
   ],
   "info" : {

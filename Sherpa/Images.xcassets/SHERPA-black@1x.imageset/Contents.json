@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "dollarTreeLogo.png"
+      "filename" : "mavernLogo.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "dollarTreeLogo@2x.png"
+      "filename" : "mavernLogo@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "dollarTreeLogo@3x.png"
+      "filename" : "mavernLogo@2x-1.png"
     }
   ],
   "info" : {

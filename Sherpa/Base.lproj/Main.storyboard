@@ -9,13 +9,13 @@
         <!--Regions-->
         <scene sceneID="N2l-1a-4uA">
             <objects>
-                <tableViewController id="CtT-q8-Sdx" customClass="TableViewForExplore" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="CtT-q8-Sdx" customClass="TableViewForExplore" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="286" sectionHeaderHeight="22" sectionFooterHeight="22" id="2vX-Zw-3RZ">
                         <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="286" id="gNw-0g-6RF" customClass="ExploreTableCell" customModule="dollarTree" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="286" id="gNw-0g-6RF" customClass="ExploreTableCell" customModule="Maven" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gNw-0g-6RF" id="KK0-As-5UR">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -95,7 +95,7 @@
         <!--Affected Areas-->
         <scene sceneID="thQ-gH-tKj">
             <objects>
-                <viewController id="Zjw-NC-q1k" customClass="ToursViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zjw-NC-q1k" customClass="ToursViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vmf-gz-Axp"/>
                         <viewControllerLayoutGuide type="bottom" id="cSQ-ca-iiD"/>
@@ -126,7 +126,7 @@
                                 <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="110" id="7Su-TK-lsv" customClass="ToursTableCell" customModule="dollarTree" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="110" id="7Su-TK-lsv" customClass="ToursTableCell" customModule="Maven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="598" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Su-TK-lsv" id="lJb-4n-zTK">
@@ -246,7 +246,7 @@
         <!--Overview-->
         <scene sceneID="74g-8A-NFl">
             <objects>
-                <viewController id="G8P-6K-jD2" customClass="ReserveViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G8P-6K-jD2" customClass="ReserveViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WuB-2N-UOl"/>
                         <viewControllerLayoutGuide type="bottom" id="tMC-Ga-5ii"/>
@@ -588,7 +588,7 @@
         <!--Write Review-->
         <scene sceneID="zVx-G2-uZu">
             <objects>
-                <viewController id="nNO-qS-U6N" customClass="ReviewViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nNO-qS-U6N" customClass="ReviewViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wyo-1l-C0k"/>
                         <viewControllerLayoutGuide type="bottom" id="N20-CL-3Wb"/>
@@ -728,7 +728,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPL-76-GDX" customClass="FloatRatingView" customModule="dollarTree" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fPL-76-GDX" customClass="FloatRatingView" customModule="Maven" customModuleProvider="target">
                                 <rect key="frame" x="75" y="129" width="451" height="28"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -820,7 +820,7 @@
         <!--Activity Feed-->
         <scene sceneID="bv8-sP-aa2">
             <objects>
-                <viewController id="QcI-Eg-GMb" customClass="ActivityViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="QcI-Eg-GMb" customClass="ActivityViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E8H-Fj-J6R"/>
                         <viewControllerLayoutGuide type="bottom" id="zh7-ta-RGj"/>
@@ -836,7 +836,7 @@
                                 <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivityCell" rowHeight="121" id="JcR-mF-DDo" customClass="ActivityViewCell" customModule="dollarTree" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivityCell" rowHeight="121" id="JcR-mF-DDo" customClass="ActivityViewCell" customModule="Maven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JcR-mF-DDo" id="NUD-rV-xhW">
@@ -958,7 +958,7 @@
         <!--Interactive Map-->
         <scene sceneID="Rq1-2i-ENz">
             <objects>
-                <viewController id="Y3O-m8-bGH" customClass="MapViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y3O-m8-bGH" customClass="MapViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LXK-fC-REl"/>
                         <viewControllerLayoutGuide type="bottom" id="31g-jT-z8j"/>
@@ -1013,7 +1013,7 @@
         <!--Main View Controller-->
         <scene sceneID="2in-1F-DlT">
             <objects>
-                <viewController storyboardIdentifier="NavigationControllerView" id="dRK-XQ-8tj" customClass="MainViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavigationControllerView" id="dRK-XQ-8tj" customClass="MainViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TwG-De-8gl"/>
                         <viewControllerLayoutGuide type="bottom" id="aDA-Z0-F8D"/>
@@ -1025,50 +1025,34 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="App Background" translatesAutoresizingMaskIntoConstraints="NO" id="1Ct-v0-Kma">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5r-Nr-5PU">
-                                <rect key="frame" x="0.0" y="525" width="600" height="75"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="6ZB-dj-6pt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="SIGN UP">
-                                    <color key="titleColor" red="0.16470588235294117" green="0.74901960784313726" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="bCe-M1-vWW" kind="presentation" modalPresentationStyle="overFullScreen" id="R0D-UJ-GRs"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKK-Ft-L7q">
-                                <rect key="frame" x="0.0" y="450" width="600" height="75"/>
-                                <color key="backgroundColor" red="0.17311041526875515" green="0.78033881279281614" blue="0.56233394132417458" alpha="1" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKK-Ft-L7q">
+                                <rect key="frame" x="155" y="404" width="291" height="59"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="CTf-1X-0Hd"/>
+                                    <constraint firstAttribute="width" constant="291" id="HdG-Bd-LCP"/>
+                                    <constraint firstAttribute="height" constant="59" id="jgf-ZS-meU"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="LOG IN">
+                                <state key="normal" image="instaLog">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="CTf-1X-0Hd"/>
+                                    </mask>
+                                </variation>
                                 <connections>
                                     <segue destination="r4I-M6-alE" kind="presentation" modalPresentationStyle="overFullScreen" id="U6B-Xy-65X"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="One dollar. One tree." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkk-h9-pf5">
-                                <rect key="frame" x="168" y="176" width="264.5" height="20.5"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
-                                <color key="textColor" red="1.3766541045387456e-05" green="0.0026099280973451711" blue="3.511384301180005e-05" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SHERPA-black@1x" translatesAutoresizingMaskIntoConstraints="NO" id="16r-Pe-C3h">
-                                <rect key="frame" x="145" y="84" width="311" height="87"/>
+                                <rect key="frame" x="243" y="48" width="114" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="254" id="6vt-1y-Pex"/>
-                                    <constraint firstAttribute="height" constant="87" id="DQo-kP-PJ2"/>
+                                    <constraint firstAttribute="height" constant="128" id="DQo-kP-PJ2"/>
                                     <constraint firstAttribute="height" constant="60" id="oJR-k9-VFH"/>
-                                    <constraint firstAttribute="width" constant="311" id="vE9-iS-TLV"/>
+                                    <constraint firstAttribute="width" constant="114" id="vE9-iS-TLV"/>
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
@@ -1077,6 +1061,33 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mavenName" translatesAutoresizingMaskIntoConstraints="NO" id="cAi-Ty-oau">
+                                <rect key="frame" x="209" y="184" width="181" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="181" id="FWH-rK-Wiu"/>
+                                    <constraint firstAttribute="height" constant="50" id="G7S-RE-vi1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5r-Nr-5PU">
+                                <rect key="frame" x="154" y="483" width="291" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="6ZB-dj-6pt"/>
+                                    <constraint firstAttribute="height" constant="59" id="ktE-9S-8to"/>
+                                    <constraint firstAttribute="width" constant="291" id="txZ-j8-gTE"/>
+                                </constraints>
+                                <state key="normal" image="twitterLog">
+                                    <color key="titleColor" red="0.16470588235294117" green="0.74901960784313726" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6ZB-dj-6pt"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="bCe-M1-vWW" kind="presentation" modalPresentationStyle="overFullScreen" id="R0D-UJ-GRs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1085,27 +1096,29 @@
                             <constraint firstAttribute="trailing" secondItem="16r-Pe-C3h" secondAttribute="trailing" constant="54" id="1FQ-xv-JhA"/>
                             <constraint firstItem="16r-Pe-C3h" firstAttribute="top" secondItem="TwG-De-8gl" secondAttribute="bottom" constant="60" id="1KM-Jj-1dM"/>
                             <constraint firstAttribute="trailing" secondItem="1Ct-v0-Kma" secondAttribute="trailing" id="3P1-On-SQR"/>
+                            <constraint firstAttribute="centerX" secondItem="cAi-Ty-oau" secondAttribute="centerX" id="4pS-46-DzV"/>
                             <constraint firstItem="16r-Pe-C3h" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" constant="40" id="8NM-QG-6Km"/>
                             <constraint firstAttribute="centerX" secondItem="16r-Pe-C3h" secondAttribute="centerX" id="9Xn-AO-KHm"/>
-                            <constraint firstAttribute="centerX" secondItem="mkk-h9-pf5" secondAttribute="centerX" id="A1e-jA-TCE"/>
                             <constraint firstItem="aDA-Z0-F8D" firstAttribute="top" secondItem="1Ct-v0-Kma" secondAttribute="bottom" id="CPg-fb-PTc"/>
                             <constraint firstAttribute="trailing" secondItem="16r-Pe-C3h" secondAttribute="trailing" constant="173" id="Chm-Ah-PaJ"/>
+                            <constraint firstAttribute="centerY" secondItem="BKK-Ft-L7q" secondAttribute="centerY" constant="-133.5" id="HEV-Ly-2Tw"/>
                             <constraint firstItem="16r-Pe-C3h" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leadingMargin" constant="40" id="Hv6-ub-9aq"/>
                             <constraint firstAttribute="trailing" secondItem="BKK-Ft-L7q" secondAttribute="trailing" id="IUk-6I-9Pc"/>
-                            <constraint firstAttribute="centerY" secondItem="mkk-h9-pf5" secondAttribute="centerY" priority="250" constant="113.75" id="OOT-1R-o4e"/>
-                            <constraint firstItem="aDA-Z0-F8D" firstAttribute="top" secondItem="c5r-Nr-5PU" secondAttribute="bottom" id="PiG-pz-s7A"/>
-                            <constraint firstAttribute="centerY" secondItem="16r-Pe-C3h" secondAttribute="centerY" priority="250" constant="172.5" id="Yua-58-ryU"/>
-                            <constraint firstItem="c5r-Nr-5PU" firstAttribute="top" secondItem="BKK-Ft-L7q" secondAttribute="bottom" id="a8C-G2-ZMR"/>
+                            <constraint firstItem="aDA-Z0-F8D" firstAttribute="top" secondItem="c5r-Nr-5PU" secondAttribute="bottom" constant="45" id="PiG-pz-s7A"/>
+                            <constraint firstAttribute="centerX" secondItem="c5r-Nr-5PU" secondAttribute="centerX" id="SGh-zu-F8j"/>
+                            <constraint firstAttribute="centerY" secondItem="cAi-Ty-oau" secondAttribute="centerY" constant="91" id="TfW-XZ-bwX"/>
+                            <constraint firstAttribute="centerY" secondItem="16r-Pe-C3h" secondAttribute="centerY" priority="250" constant="188" id="Yua-58-ryU"/>
+                            <constraint firstItem="c5r-Nr-5PU" firstAttribute="top" secondItem="BKK-Ft-L7q" secondAttribute="bottom" constant="56" id="a8C-G2-ZMR"/>
                             <constraint firstItem="c5r-Nr-5PU" firstAttribute="top" secondItem="1Ct-v0-Kma" secondAttribute="bottom" constant="-75" id="gGJ-Wh-i3w"/>
-                            <constraint firstAttribute="trailing" secondItem="c5r-Nr-5PU" secondAttribute="trailing" id="jgq-qk-i0S"/>
+                            <constraint firstAttribute="centerY" secondItem="c5r-Nr-5PU" secondAttribute="centerY" constant="-210" id="gmE-tk-otL"/>
+                            <constraint firstAttribute="trailing" secondItem="c5r-Nr-5PU" secondAttribute="trailing" constant="155" id="jgq-qk-i0S"/>
                             <constraint firstAttribute="trailingMargin" secondItem="16r-Pe-C3h" secondAttribute="trailing" constant="40" id="kBm-Ab-bQy"/>
+                            <constraint firstAttribute="centerX" secondItem="BKK-Ft-L7q" secondAttribute="centerX" id="o7l-MT-omG"/>
                             <constraint firstItem="1Ct-v0-Kma" firstAttribute="top" secondItem="FAT-CC-lNm" secondAttribute="top" id="pme-1F-s0v"/>
-                            <constraint firstItem="BKK-Ft-L7q" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" id="sHJ-7z-sa8"/>
                             <constraint firstItem="16r-Pe-C3h" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" constant="173" id="syn-qe-g4d"/>
-                            <constraint firstItem="c5r-Nr-5PU" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" id="tev-My-v63"/>
+                            <constraint firstItem="c5r-Nr-5PU" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" constant="154" id="tev-My-v63"/>
                             <constraint firstItem="1Ct-v0-Kma" firstAttribute="leading" secondItem="FAT-CC-lNm" secondAttribute="leading" id="xdI-ek-Qdi"/>
-                            <constraint firstItem="mkk-h9-pf5" firstAttribute="top" secondItem="16r-Pe-C3h" secondAttribute="bottom" constant="5" id="y7G-n3-50V"/>
-                            <constraint firstItem="1Ct-v0-Kma" firstAttribute="top" secondItem="16r-Pe-C3h" secondAttribute="bottom" constant="-171" id="yNU-Pf-kN7"/>
+                            <constraint firstItem="1Ct-v0-Kma" firstAttribute="top" secondItem="16r-Pe-C3h" secondAttribute="bottom" constant="-176" id="yNU-Pf-kN7"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -1118,7 +1131,12 @@
                                 <exclude reference="Hv6-ub-9aq"/>
                                 <exclude reference="kBm-Ab-bQy"/>
                                 <exclude reference="syn-qe-g4d"/>
+                                <exclude reference="IUk-6I-9Pc"/>
+                                <exclude reference="a8C-G2-ZMR"/>
                                 <exclude reference="gGJ-Wh-i3w"/>
+                                <exclude reference="jgq-qk-i0S"/>
+                                <exclude reference="tev-My-v63"/>
+                                <exclude reference="PiG-pz-s7A"/>
                             </mask>
                         </variation>
                     </view>
@@ -1131,7 +1149,7 @@
         <!--LOG IN-->
         <scene sceneID="cc7-gn-XfO">
             <objects>
-                <viewController id="hBj-7q-QnE" customClass="LoginViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hBj-7q-QnE" customClass="LoginViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1DW-3o-82b"/>
                         <viewControllerLayoutGuide type="bottom" id="dW1-8f-ubl"/>
@@ -1259,7 +1277,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="0ks-rf-IJw">
             <objects>
-                <viewController id="ck4-65-Wqy" userLabel="Sign Up View Controller" customClass="SignViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ck4-65-Wqy" userLabel="Sign Up View Controller" customClass="SignViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kfM-m9-qeV"/>
                         <viewControllerLayoutGuide type="bottom" id="R5x-VU-1Qy"/>
@@ -1507,7 +1525,7 @@
         <!--Dashboard-->
         <scene sceneID="x49-Px-Pxi">
             <objects>
-                <viewController title="Dashboard" id="bJY-D6-CfU" customClass="DashboardViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Dashboard" id="bJY-D6-CfU" customClass="DashboardViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="usy-5S-UKe"/>
                         <viewControllerLayoutGuide type="bottom" id="By8-Rc-5Wx"/>
@@ -1566,7 +1584,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="121" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="X2b-RC-0L0">
                                 <rect key="frame" x="0.0" y="302" width="600" height="248"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="RequestCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="RequestCell" rowHeight="121" id="Cf7-bl-Nnn" customClass="DashboardTableViewCell" customModule="dollarTree" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="RequestCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="RequestCell" rowHeight="121" id="Cf7-bl-Nnn" customClass="DashboardTableViewCell" customModule="Maven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cf7-bl-Nnn" id="mwh-ea-FbE">
@@ -1810,7 +1828,7 @@
         <!--Requests-->
         <scene sceneID="4Oy-Bt-RLs">
             <objects>
-                <viewController title="Requests" id="fhS-MA-6Zi" customClass="RequestViewController" customModule="dollarTree" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Requests" id="fhS-MA-6Zi" customClass="RequestViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8ur-d3-7RI"/>
                         <viewControllerLayoutGuide type="bottom" id="6tq-kK-ZiM"/>
@@ -1844,7 +1862,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="ScheduleCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleCell" rowHeight="121" id="6qe-yt-k5O" customClass="RequestTableViewCell" customModule="dollarTree" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" restorationIdentifier="ScheduleCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleCell" rowHeight="121" id="6qe-yt-k5O" customClass="RequestTableViewCell" customModule="Maven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="240" width="600" height="121"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6qe-yt-k5O" id="twt-OY-6H3">
@@ -2172,13 +2190,16 @@
         <image name="NewYork" width="375" height="265"/>
         <image name="Or" width="287" height="26"/>
         <image name="Rectangle" width="375" height="2"/>
-        <image name="SHERPA-black@1x" width="333" height="60"/>
+        <image name="SHERPA-black@1x" width="113" height="128"/>
         <image name="Signup Button" width="236" height="48"/>
         <image name="StarEmpty" width="46" height="44"/>
         <image name="StarFull" width="46" height="44"/>
         <image name="UncheckBox" width="196" height="196"/>
         <image name="activityIcon" width="32" height="24"/>
+        <image name="instaLog" width="291" height="59"/>
+        <image name="mavenName" width="181" height="46"/>
         <image name="newUser" width="44" height="44"/>
         <image name="treeIcon" width="26" height="32"/>
+        <image name="twitterLog" width="291" height="59"/>
     </resources>
 </document>
