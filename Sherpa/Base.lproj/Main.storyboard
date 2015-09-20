@@ -1503,6 +1503,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Influencer" id="T4f-FK-39q"/>
                     <connections>
+                        <outlet property="riskButton" destination="wK5-S9-kOb" id="7lH-xW-2S2"/>
                         <segue destination="gOh-3H-Kuj" kind="show" identifier="compute" id="SNO-6Z-swk"/>
                     </connections>
                 </viewController>
