@@ -1043,7 +1043,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="r4I-M6-alE" kind="presentation" modalPresentationStyle="overFullScreen" id="U6B-Xy-65X"/>
+                                    <action selector="instaPressed:" destination="dRK-XQ-8tj" eventType="touchUpInside" id="taM-yN-aO9"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SHERPA-black@1x" translatesAutoresizingMaskIntoConstraints="NO" id="16r-Pe-C3h">
@@ -1085,6 +1085,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
+                                    <action selector="twitterPressed:" destination="dRK-XQ-8tj" eventType="touchUpInside" id="hr7-HN-xyg"/>
                                     <segue destination="bCe-M1-vWW" kind="presentation" modalPresentationStyle="overFullScreen" id="R0D-UJ-GRs"/>
                                 </connections>
                             </button>
@@ -1141,6 +1142,10 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="CLy-GD-Er3"/>
+                    <connections>
+                        <outlet property="instaButton" destination="BKK-Ft-L7q" id="Ga8-kT-BYS"/>
+                        <outlet property="twitterButton" destination="c5r-Nr-5PU" id="uFm-Cp-lgr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLR-Ga-HsX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
