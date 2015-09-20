@@ -37,6 +37,9 @@
 		F10843721BAE770B00596F38 /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843711BAE770B00596F38 /* LineGraph.swift */; };
 		F10843741BAE776F00596F38 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843731BAE776F00596F38 /* BarGraph.swift */; };
 		F10843761BAE88DF00596F38 /* BrandViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843751BAE88DF00596F38 /* BrandViewCell.swift */; };
+		F10843781BAECD6400596F38 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843771BAECD6400596F38 /* SearchViewController.swift */; };
+		F108437A1BAECD7300596F38 /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843791BAECD7300596F38 /* SearchViewCell.swift */; };
+		F108437C1BAED9E800596F38 /* InfluencerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108437B1BAED9E800596F38 /* InfluencerViewController.swift */; };
 		F109F9121B898D4100B14050 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9111B898D4100B14050 /* MapViewController.swift */; };
 		F109F9141B898D6A00B14050 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9131B898D6A00B14050 /* Artwork.swift */; };
 		F109F9161B898D9000B14050 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9151B898D9000B14050 /* JSON.swift */; };
@@ -121,6 +124,9 @@
 		F10843711BAE770B00596F38 /* LineGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		F10843731BAE776F00596F38 /* BarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
 		F10843751BAE88DF00596F38 /* BrandViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandViewCell.swift; sourceTree = "<group>"; };
+		F10843771BAECD6400596F38 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F10843791BAECD7300596F38 /* SearchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
+		F108437B1BAED9E800596F38 /* InfluencerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfluencerViewController.swift; sourceTree = "<group>"; };
 		F109F9111B898D4100B14050 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F109F9131B898D6A00B14050 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		F109F9151B898D9000B14050 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -257,6 +263,9 @@
 				F10843751BAE88DF00596F38 /* BrandViewCell.swift */,
 				F10843711BAE770B00596F38 /* LineGraph.swift */,
 				F10843731BAE776F00596F38 /* BarGraph.swift */,
+				F108437B1BAED9E800596F38 /* InfluencerViewController.swift */,
+				F10843771BAECD6400596F38 /* SearchViewController.swift */,
+				F10843791BAECD7300596F38 /* SearchViewCell.swift */,
 				F1EEC44F1B5F06B4008A04CF /* ParseLoginHelper.swift */,
 				659895B31B5B989F00607B5E /* LoginViewController.swift */,
 				F1BB0B8A1B7708B50031FB6A /* SignViewController.swift */,
@@ -544,6 +553,7 @@
 				E2A344441B5B0550004CAF3A /* ExploreTableCell.swift in Sources */,
 				E2A344421B5B053C004CAF3A /* TableViewForExplore.swift in Sources */,
 				F109F9121B898D4100B14050 /* MapViewController.swift in Sources */,
+				F108437A1BAECD7300596F38 /* SearchViewCell.swift in Sources */,
 				F1B7AB2F1B72D9C30036DEFE /* RequestViewController.swift in Sources */,
 				E2A344561B5B8861004CAF3A /* TourOverviewViewController.swift in Sources */,
 				F171EF131B757ED6001ADD9B /* FloatingStarReview.swift in Sources */,
@@ -551,12 +561,14 @@
 				F1BB0B921B7A98E30031FB6A /* PhotoTakingHelper.swift in Sources */,
 				E2A3444C1B5B3140004CAF3A /* ToursViewController.swift in Sources */,
 				F1B7AB311B7342120036DEFE /* RequestTableViewCell.swift in Sources */,
+				F108437C1BAED9E800596F38 /* InfluencerViewController.swift in Sources */,
 				E2A344401B5B0516004CAF3A /* AppData.swift in Sources */,
 				A49B61331B5B9E0D00F81B3D /* CallViewController.swift in Sources */,
 				F10843721BAE770B00596F38 /* LineGraph.swift in Sources */,
 				E2A3444A1B5B22E8004CAF3A /* DashboardTableViewCell.swift in Sources */,
 				F109F9241B89CE6F00B14050 /* ActivityViewController.swift in Sources */,
 				F178CEF41B7BC70900B5642D /* PopDatePicker.swift in Sources */,
+				F10843781BAECD6400596F38 /* SearchViewController.swift in Sources */,
 				659F00451B5ADECE00E4267B /* AppDelegate.swift in Sources */,
 				F178CEF61B7BC72000B5642D /* PopDateViewController.swift in Sources */,
 				F109F9201B89CA5E00B14050 /* Activity.swift in Sources */,
