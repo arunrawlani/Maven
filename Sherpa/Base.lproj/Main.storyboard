@@ -1271,6 +1271,7 @@
                     <navigationItem key="navigationItem" title="Brand Home" id="GnC-TX-wii"/>
                     <connections>
                         <outlet property="tableView" destination="EH3-BO-lT8" id="HBi-IK-bNe"/>
+                        <outlet property="viewMore" destination="wd4-s9-IJg" id="7Va-wd-tTb"/>
                         <segue destination="ZTh-tq-ULU" kind="show" identifier="search" id="aWN-5R-VDe"/>
                     </connections>
                 </viewController>
