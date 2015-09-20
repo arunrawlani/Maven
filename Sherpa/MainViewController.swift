@@ -29,6 +29,7 @@ class MainViewController: UIViewController{
         
         delay(seconds: 2.0, completion: {
             SwiftLoader.hide()
+            self.performSegueWithIdentifier("option", sender: nil)
         })
     }
     

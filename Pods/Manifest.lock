@@ -29,6 +29,7 @@ PODS:
   - ParseUI (1.1.5):
     - Bolts/Tasks (~> 1.2)
     - Parse (~> 1.8)
+  - PNChartSwift (0.0.2)
   - SinchRTC (3.5.2)
   - SwiftLoader (0.2.2)
 
@@ -41,8 +42,18 @@ DEPENDENCIES:
   - Parse
   - ParseFacebookUtilsV4
   - ParseUI
+  - PNChartSwift (from `https://github.com/kevinzhow/PNChart-Swift.git`)
   - SinchRTC
   - SwiftLoader (~> 0.2)
+
+EXTERNAL SOURCES:
+  PNChartSwift:
+    :git: https://github.com/kevinzhow/PNChart-Swift.git
+
+CHECKOUT OPTIONS:
+  PNChartSwift:
+    :commit: f1d1b0451686f47d691a6f04f9cd2619650fac44
+    :git: https://github.com/kevinzhow/PNChart-Swift.git
 
 SPEC CHECKSUMS:
   AKPickerView-Swift: 7989ebd544dc2adcbb56ffd48bbb8d3c3ea2d71d
@@ -54,6 +65,7 @@ SPEC CHECKSUMS:
   Parse: 2155953b1565494095d5fa5c83b3c77f2c677c09
   ParseFacebookUtilsV4: 2c54f1c9756f4827417984f42b64bc38571d626b
   ParseUI: 2c53621ed028ee793f5ab92a551b099689265525
+  PNChartSwift: bcdfbffd65920072463eff42d0dfb46189bf4495
   SinchRTC: b5de8c84210666db5cbac256ff77953905364175
   SwiftLoader: 9c5e547ae8e00b1c1079139492d6a273c7f73171
 

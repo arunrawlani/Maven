@@ -34,6 +34,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PNChartSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,52 +72,57 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0BDBEB9D0C3F80DBD953F7DCEE745690</key>
+		<key>53F8A9F8DFF11E9C514D160A061E8932</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C66C44641F35D5F8584D21FA62BDA59</key>
+		<key>5EB64C42AF15B1C82F2AC32083515A0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>385D3F9E664D0ED89D6970C84C82AC97</key>
+		<key>67616692D29726A17BD1DADDF408389F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6508E63B5B89E6B0CB7EC2DFFF229BBB</key>
+		<key>74846D1DDDD805D809BF8A8020599434</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6729B3B61B2403777CBB1D7C643E3A6D</key>
+		<key>7CCA0FEEDB3F5E11126240BDAB65BBAC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>787DEC6097AE3E6DC6E154396F078341</key>
+		<key>8934234C4388E070D106484659861FF3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8E0352B139EA29A1AE1E3F49362CAB96</key>
+		<key>A99D3E0A166080EAAC844FF09B027F7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9334D272A4FE1AB3D16B2678B2E891C0</key>
+		<key>AC8687C62726EB8CB3B0B302624D9162</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98F7910A03C9B8C32B315CE58F9B29E7</key>
+		<key>C2B56ABE1FD637933DAEDEFA5715DD08</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FCED4341EBC036593A6104F870958670</key>
+		<key>F2ED887680C60A1D480E0FF1E424D829</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB9A966C570CB054742E257EF190D62A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
