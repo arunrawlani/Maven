@@ -1151,10 +1151,10 @@
             </objects>
             <point key="canvasLocation" x="-3415" y="797"/>
         </scene>
-        <!--View Controller-->
+        <!--Brand-->
         <scene sceneID="vyT-7f-D3J">
             <objects>
-                <viewController id="ObR-BE-wNJ" sceneMemberID="viewController">
+                <viewController id="ObR-BE-wNJ" customClass="BrandViewController" customModule="Maven" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fJP-el-7iT"/>
                         <viewControllerLayoutGuide type="bottom" id="fX5-Ma-JZn"/>
@@ -1163,27 +1163,112 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-X8-5V2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-X8-5V2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brand" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhR-UK-Ep1">
-                                <rect key="frame" x="276" y="289" width="47" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hired Influencers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqQ-8C-GK6">
+                                <rect key="frame" x="133" y="288" width="133.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.9986509342783505" blue="0.9986509342783505" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EH3-BO-lT8">
+                                <rect key="frame" x="0.0" y="329" width="600" height="270.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BrandCell" rowHeight="90" id="NhU-Xe-6O3" customClass="BrandViewCell" customModule="Maven" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="NhU-Xe-6O3" id="CS0-3M-YYw">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User" translatesAutoresizingMaskIntoConstraints="NO" id="mvc-IF-3MV">
+                                                    <rect key="frame" x="14" y="8" width="70" height="70"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="70" id="39Z-s5-Ram"/>
+                                                        <constraint firstAttribute="width" constant="70" id="rqb-5l-sl9"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="6YL-OA-efh">
+                                                    <rect key="frame" x="107" y="49" width="43" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                                    <color key="textColor" red="0.87427512886597936" green="0.89553801546391754" blue="0.87942976804123707" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="increase" translatesAutoresizingMaskIntoConstraints="NO" id="kdE-SG-zQI">
+                                                    <rect key="frame" x="285" y="26" width="46" height="39"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="39" id="0bR-tA-zZL"/>
+                                                        <constraint firstAttribute="width" constant="46" id="XAo-O6-4WG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Erica Haims" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2T2-K2-Ngy">
+                                                    <rect key="frame" x="107" y="8" width="128" height="33"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="22"/>
+                                                    <color key="textColor" red="1" green="0.99347615979381443" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="mvc-IF-3MV" firstAttribute="top" secondItem="CS0-3M-YYw" secondAttribute="topMargin" id="0C8-31-HVc"/>
+                                                <constraint firstItem="6YL-OA-efh" firstAttribute="leading" secondItem="mvc-IF-3MV" secondAttribute="trailing" constant="23" id="2zo-Ov-jib"/>
+                                                <constraint firstItem="kdE-SG-zQI" firstAttribute="top" secondItem="CS0-3M-YYw" secondAttribute="topMargin" constant="18" id="GXQ-lv-WJh"/>
+                                                <constraint firstItem="mvc-IF-3MV" firstAttribute="leading" secondItem="CS0-3M-YYw" secondAttribute="leadingMargin" constant="6" id="HTW-DM-Euq"/>
+                                                <constraint firstAttribute="centerY" secondItem="kdE-SG-zQI" secondAttribute="centerY" id="NbF-2j-IOS"/>
+                                                <constraint firstItem="2T2-K2-Ngy" firstAttribute="leading" secondItem="mvc-IF-3MV" secondAttribute="trailing" constant="23" id="SNf-kk-0H4"/>
+                                                <constraint firstItem="6YL-OA-efh" firstAttribute="top" secondItem="2T2-K2-Ngy" secondAttribute="bottom" constant="8" id="Wfj-Sv-2qZ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="mvc-IF-3MV" secondAttribute="bottom" constant="3.5" id="jYl-05-kPy"/>
+                                                <constraint firstItem="2T2-K2-Ngy" firstAttribute="top" secondItem="CS0-3M-YYw" secondAttribute="topMargin" id="k2g-Xw-ave"/>
+                                                <constraint firstAttribute="centerX" secondItem="kdE-SG-zQI" secondAttribute="centerX" constant="-155" id="noZ-m4-Wzg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="influencerDescription" destination="6YL-OA-efh" id="qQ6-wo-f7z"/>
+                                            <outlet property="influencerEffect" destination="kdE-SG-zQI" id="tyB-nS-UcK"/>
+                                            <outlet property="influencerName" destination="2T2-K2-Ngy" id="Dp5-IK-EGv"/>
+                                            <outlet property="influencerPhoto" destination="mvc-IF-3MV" id="UJl-o5-VM3"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ObR-BE-wNJ" id="FSv-fN-WVG"/>
+                                    <outlet property="delegate" destination="ObR-BE-wNJ" id="iQ6-e3-roH"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wd4-s9-IJg">
+                                <rect key="frame" x="330" y="281" width="140" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="jgr-3e-67N"/>
+                                    <constraint firstAttribute="height" constant="35" id="t5S-R6-WbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="View More" backgroundImage="Login Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fX5-Ma-JZn" firstAttribute="top" secondItem="Uad-X8-5V2" secondAttribute="bottom" id="0er-qj-b1E"/>
+                            <constraint firstAttribute="centerX" secondItem="xqQ-8C-GK6" secondAttribute="centerX" constant="100" id="1qh-qn-ISs"/>
+                            <constraint firstItem="EH3-BO-lT8" firstAttribute="top" secondItem="xqQ-8C-GK6" secondAttribute="bottom" constant="17.5" id="BW9-wS-qKX"/>
                             <constraint firstItem="Uad-X8-5V2" firstAttribute="leading" secondItem="WJN-3Y-D2M" secondAttribute="leading" id="CRD-SW-pTn"/>
+                            <constraint firstItem="fX5-Ma-JZn" firstAttribute="top" secondItem="EH3-BO-lT8" secondAttribute="bottom" id="CTH-ze-bxD"/>
                             <constraint firstAttribute="trailing" secondItem="Uad-X8-5V2" secondAttribute="trailing" id="ZI8-GH-Ihe"/>
                             <constraint firstItem="Uad-X8-5V2" firstAttribute="top" secondItem="WJN-3Y-D2M" secondAttribute="top" id="ZsX-SE-hWk"/>
-                            <constraint firstAttribute="centerY" secondItem="JhR-UK-Ep1" secondAttribute="centerY" id="dW8-gb-M0a"/>
-                            <constraint firstAttribute="centerX" secondItem="JhR-UK-Ep1" secondAttribute="centerX" id="tp9-kr-TnL"/>
+                            <constraint firstAttribute="centerY" secondItem="xqQ-8C-GK6" secondAttribute="centerY" id="aHd-Y5-7aq"/>
+                            <constraint firstAttribute="centerX" secondItem="wd4-s9-IJg" secondAttribute="centerX" constant="-100" id="bFZ-m0-m4q"/>
+                            <constraint firstAttribute="trailing" secondItem="EH3-BO-lT8" secondAttribute="trailing" id="bUW-mp-Ez6"/>
+                            <constraint firstItem="EH3-BO-lT8" firstAttribute="leading" secondItem="WJN-3Y-D2M" secondAttribute="leading" id="g5H-QY-AvZ"/>
+                            <constraint firstAttribute="centerY" secondItem="wd4-s9-IJg" secondAttribute="centerY" constant="1.5" id="iKF-wW-9cC"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="GnC-TX-wii"/>
+                    <navigationItem key="navigationItem" title="Brand" id="GnC-TX-wii"/>
+                    <connections>
+                        <outlet property="tableView" destination="EH3-BO-lT8" id="HBi-IK-bNe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="as1-JG-IT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1254,7 +1339,7 @@
             </objects>
             <point key="canvasLocation" x="-2646" y="813"/>
         </scene>
-        <!--View Controller-->
+        <!--Influencer-->
         <scene sceneID="k5t-Xw-zEX">
             <objects>
                 <viewController id="UUC-IG-BFb" sceneMemberID="viewController">
@@ -1286,7 +1371,7 @@
                             <constraint firstItem="5or-o5-2aU" firstAttribute="leading" secondItem="IF0-3Z-KHA" secondAttribute="leading" id="qlI-5A-zXj"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="T4f-FK-39q"/>
+                    <navigationItem key="navigationItem" title="Influencer" id="T4f-FK-39q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sso-Bp-Pwi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2377,10 +2462,13 @@
         <image name="StarEmpty" width="46" height="44"/>
         <image name="StarFull" width="46" height="44"/>
         <image name="UncheckBox" width="196" height="196"/>
+        <image name="User" width="34" height="38"/>
         <image name="activityIcon" width="32" height="24"/>
+        <image name="increase" width="67" height="45"/>
         <image name="instaLog" width="291" height="59"/>
         <image name="mainBackground" width="375" height="667"/>
         <image name="mavenName" width="181" height="46"/>
+        <image name="newBackground" width="375" height="667"/>
         <image name="newUser" width="44" height="44"/>
         <image name="treeIcon" width="26" height="32"/>
         <image name="twitterLog" width="291" height="59"/>
