@@ -40,6 +40,8 @@
 		F10843781BAECD6400596F38 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843771BAECD6400596F38 /* SearchViewController.swift */; };
 		F108437A1BAECD7300596F38 /* SearchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10843791BAECD7300596F38 /* SearchViewCell.swift */; };
 		F108437C1BAED9E800596F38 /* InfluencerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108437B1BAED9E800596F38 /* InfluencerViewController.swift */; };
+		F108437E1BAEE37100596F38 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108437D1BAEE37100596F38 /* KDCircularProgress.swift */; };
+		F10843801BAEE77D00596F38 /* KDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F108437F1BAEE77D00596F38 /* KDViewController.swift */; };
 		F109F9121B898D4100B14050 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9111B898D4100B14050 /* MapViewController.swift */; };
 		F109F9141B898D6A00B14050 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9131B898D6A00B14050 /* Artwork.swift */; };
 		F109F9161B898D9000B14050 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F109F9151B898D9000B14050 /* JSON.swift */; };
@@ -127,6 +129,8 @@
 		F10843771BAECD6400596F38 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		F10843791BAECD7300596F38 /* SearchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewCell.swift; sourceTree = "<group>"; };
 		F108437B1BAED9E800596F38 /* InfluencerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfluencerViewController.swift; sourceTree = "<group>"; };
+		F108437D1BAEE37100596F38 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
+		F108437F1BAEE77D00596F38 /* KDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDViewController.swift; sourceTree = "<group>"; };
 		F109F9111B898D4100B14050 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F109F9131B898D6A00B14050 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		F109F9151B898D9000B14050 /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -259,6 +263,8 @@
 				F108436D1BAE724800596F38 /* ChoiceViewController.swift */,
 				A49B61321B5B9E0D00F81B3D /* CallViewController.swift */,
 				659F00481B5ADECE00E4267B /* Main.storyboard */,
+				F108437F1BAEE77D00596F38 /* KDViewController.swift */,
+				F108437D1BAEE37100596F38 /* KDCircularProgress.swift */,
 				F108436F1BAE752A00596F38 /* BrandViewController.swift */,
 				F10843751BAE88DF00596F38 /* BrandViewCell.swift */,
 				F10843711BAE770B00596F38 /* LineGraph.swift */,
@@ -547,6 +553,7 @@
 				F10843701BAE752A00596F38 /* BrandViewController.swift in Sources */,
 				F10E8D831B693A790037E340 /* ReserveViewController.swift in Sources */,
 				F178CEFA1B7BCAF000B5642D /* DateUtils.swift in Sources */,
+				F10843801BAEE77D00596F38 /* KDViewController.swift in Sources */,
 				659895B21B5B270E00607B5E /* Netwerker.swift in Sources */,
 				F1EEC4501B5F06B4008A04CF /* ParseLoginHelper.swift in Sources */,
 				F1B7AB2D1B72ABF90036DEFE /* TransitionManager.swift in Sources */,
@@ -571,6 +578,7 @@
 				F10843781BAECD6400596F38 /* SearchViewController.swift in Sources */,
 				659F00451B5ADECE00E4267B /* AppDelegate.swift in Sources */,
 				F178CEF61B7BC72000B5642D /* PopDateViewController.swift in Sources */,
+				F108437E1BAEE37100596F38 /* KDCircularProgress.swift in Sources */,
 				F109F9201B89CA5E00B14050 /* Activity.swift in Sources */,
 				F108436E1BAE724800596F38 /* ChoiceViewController.swift in Sources */,
 				F108436C1BAE583200596F38 /* SwiftSpinner.swift in Sources */,

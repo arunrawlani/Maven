@@ -18,4 +18,8 @@ class InfluencerViewController: UIViewController{
         self.view.addSubview(reactionTimeData)
     }
     
+    @IBAction func computeIndex(sender: AnyObject) {
+        
+        performSegueWithIdentifier("compute", sender: nil)
+    }
 }
