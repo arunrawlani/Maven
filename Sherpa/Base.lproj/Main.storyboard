@@ -1471,11 +1471,20 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainBackground" translatesAutoresizingMaskIntoConstraints="NO" id="5or-o5-2aU">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="metrics" translatesAutoresizingMaskIntoConstraints="NO" id="I43-JT-dVa">
+                                <rect key="frame" x="0.0" y="386" width="600" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="ih0-XC-6ba"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="I43-JT-dVa" firstAttribute="leading" secondItem="IF0-3Z-KHA" secondAttribute="leading" id="6Hg-vi-0Ud"/>
+                            <constraint firstItem="YZW-16-9g0" firstAttribute="top" secondItem="I43-JT-dVa" secondAttribute="bottom" id="CVY-OR-y8y"/>
                             <constraint firstItem="5or-o5-2aU" firstAttribute="top" secondItem="IF0-3Z-KHA" secondAttribute="top" id="PmD-TI-5Ex"/>
                             <constraint firstAttribute="trailing" secondItem="5or-o5-2aU" secondAttribute="trailing" id="Vae-py-kY0"/>
+                            <constraint firstAttribute="trailing" secondItem="I43-JT-dVa" secondAttribute="trailing" id="b7B-Ya-lba"/>
                             <constraint firstItem="YZW-16-9g0" firstAttribute="top" secondItem="5or-o5-2aU" secondAttribute="bottom" id="i4O-vx-hAB"/>
                             <constraint firstItem="5or-o5-2aU" firstAttribute="leading" secondItem="IF0-3Z-KHA" secondAttribute="leading" id="qlI-5A-zXj"/>
                         </constraints>
@@ -2578,6 +2587,7 @@
         <image name="instaLog" width="291" height="59"/>
         <image name="mainBackground" width="375" height="667"/>
         <image name="mavenName" width="181" height="46"/>
+        <image name="metrics" width="375" height="214"/>
         <image name="newBackground" width="375" height="667"/>
         <image name="newUser" width="44" height="44"/>
         <image name="treeIcon" width="26" height="32"/>

@@ -26,8 +26,8 @@ class BarGraph: UIView {
     func makeGraph() {
         var ChartLabel:UILabel = UILabel(frame: CGRectMake(0, 90, 320.0, 30))
         ChartLabel.textColor = PNGreenColor
-        ChartLabel.font = UIFont(name: "Avenir-Medium", size:23.0)
-        ChartLabel.text = "Reaction Time Data over time"
+        ChartLabel.font = UIFont(name: "Avenir-Medium", size:21.0)
+        ChartLabel.text = "Social Metrics over time"
         ChartLabel.textAlignment = NSTextAlignment.Center
         
         var barChart = PNBarChart(frame: CGRectMake(0, 135.0, 320.0, 200.0))
@@ -44,7 +44,7 @@ class BarGraph: UIView {
         
         
         barChart.labelMarginTop = 5.0
-        barChart.xLabels = ["SEP 1","SEP 2","SEP 3","SEP 4","SEP 5","SEP 6","SEP 7"]
+        barChart.xLabels = ["JAN","FEB","MAR","APR","MAY","JUN","JUL"]
         barChart.yValues = [2.9,2.4,3.3,1.8,3.0,2.7,3.7]
         barChart.strokeChart()
         
