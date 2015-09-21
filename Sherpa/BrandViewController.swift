@@ -21,7 +21,7 @@ class BrandViewController: UIViewController{
     var ranJudge = ["alexisOhan", "ericMigi", "qasarYounus"]
     var ranEffect = ["increase", "decrease", "increase"]
     override func viewDidLoad() {
-        self.viewMore.hidden = true
+        
         let eegData = LineGraph(frame: CGRectMake(20, -80, 330, 200))
         self.view.addSubview(eegData)
     }

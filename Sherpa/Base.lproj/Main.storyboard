@@ -1296,7 +1296,7 @@
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Gt8-oZ-JKf">
                                 <rect key="frame" x="0.0" y="154" width="600" height="446"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchCell" rowHeight="110" id="j4b-hJ-8r4" customClass="SearchViewCell" customModule="Maven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -1304,11 +1304,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j4b-hJ-8r4" id="wMl-A5-Eeh">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.34999999999999964" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alexisOhan" translatesAutoresizingMaskIntoConstraints="NO" id="2Yr-Bt-4b3">
-                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="109.5"/>
-                                                    <color key="backgroundColor" red="0.99091897551546393" green="0.99629510309278346" blue="0.99629510309278346" alpha="0.77000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </imageView>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aev-TC-obW" customClass="SearchViewCell" customModule="Maven" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aev-TC-obW">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="109.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alexis Ohanion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klw-7E-Edr">
@@ -1320,7 +1316,7 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GA1-BL-M60">
                                                             <rect key="frame" x="31" y="59" width="39" height="22"/>
                                                             <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
-                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                            <color key="textColor" red="0.0" green="0.8869303385416667" blue="0.079057519231075124" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3eD-z0-DiE">
@@ -1345,18 +1341,14 @@
                                                 <constraint firstAttribute="bottom" secondItem="aev-TC-obW" secondAttribute="bottom" id="3SY-0Q-5Eh"/>
                                                 <constraint firstAttribute="trailing" secondItem="aev-TC-obW" secondAttribute="trailing" id="DBC-z1-c4X"/>
                                                 <constraint firstItem="aev-TC-obW" firstAttribute="leading" secondItem="wMl-A5-Eeh" secondAttribute="leading" id="Ei8-fC-jsi"/>
-                                                <constraint firstItem="2Yr-Bt-4b3" firstAttribute="top" secondItem="wMl-A5-Eeh" secondAttribute="top" id="W5N-v1-MVA"/>
-                                                <constraint firstItem="2Yr-Bt-4b3" firstAttribute="leading" secondItem="wMl-A5-Eeh" secondAttribute="leading" id="kLr-IN-64M"/>
                                                 <constraint firstItem="aev-TC-obW" firstAttribute="top" secondItem="wMl-A5-Eeh" secondAttribute="top" id="l4P-1s-Vf4"/>
-                                                <constraint firstAttribute="trailing" secondItem="2Yr-Bt-4b3" secondAttribute="trailing" id="s9Q-G2-zZD"/>
-                                                <constraint firstAttribute="bottom" secondItem="2Yr-Bt-4b3" secondAttribute="bottom" id="t4q-pp-ouQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="influencerCategory" destination="GA1-BL-M60" id="zbz-ci-DiP"/>
                                             <outlet property="influencerIndex" destination="3eD-z0-DiE" id="T9z-kT-YRs"/>
                                             <outlet property="influencerName" destination="klw-7E-Edr" id="MYE-Ee-8FN"/>
-                                            <outlet property="influencerPhoto" destination="2Yr-Bt-4b3" id="a4B-Nr-8Lo"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1365,9 +1357,15 @@
                                     <outlet property="delegate" destination="ZTh-tq-ULU" id="RcL-NE-Zdo"/>
                                 </connections>
                             </tableView>
+                            <searchBar contentMode="redraw" placeholder="Find influencer by geography, trends, social activity" translatesAutoresizingMaskIntoConstraints="NO" id="4Xg-5s-EJa">
+                                <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Xg-5s-EJa" secondAttribute="trailing" id="EZf-q9-j0m"/>
                             <constraint firstItem="DLj-sT-R1u" firstAttribute="leading" secondItem="Dk1-gC-fhm" secondAttribute="leading" id="GRK-dy-D51"/>
                             <constraint firstItem="Gt8-oZ-JKf" firstAttribute="leading" secondItem="Dk1-gC-fhm" secondAttribute="leading" id="JVj-dp-213"/>
                             <constraint firstItem="tcF-I0-jZp" firstAttribute="top" secondItem="DLj-sT-R1u" secondAttribute="bottom" id="Mbc-qd-NYT"/>
@@ -1376,6 +1374,8 @@
                             <constraint firstItem="Gt8-oZ-JKf" firstAttribute="top" secondItem="B6F-Qi-Kib" secondAttribute="bottom" constant="90" id="YJO-xn-vyw"/>
                             <constraint firstAttribute="trailing" secondItem="DLj-sT-R1u" secondAttribute="trailing" id="ZP0-1V-gWn"/>
                             <constraint firstAttribute="trailing" secondItem="Gt8-oZ-JKf" secondAttribute="trailing" id="cAb-NG-ovc"/>
+                            <constraint firstItem="4Xg-5s-EJa" firstAttribute="top" secondItem="B6F-Qi-Kib" secondAttribute="bottom" id="ifG-kr-0kG"/>
+                            <constraint firstItem="4Xg-5s-EJa" firstAttribute="leading" secondItem="Dk1-gC-fhm" secondAttribute="leading" id="jGI-s0-sx0"/>
                             <constraint firstItem="DLj-sT-R1u" firstAttribute="top" secondItem="Dk1-gC-fhm" secondAttribute="top" id="uLK-Qs-JLO"/>
                         </constraints>
                         <variation key="default">
@@ -2703,7 +2703,6 @@
         <image name="UncheckBox" width="196" height="196"/>
         <image name="User" width="34" height="38"/>
         <image name="activityIcon" width="32" height="24"/>
-        <image name="alexisOhan" width="84" height="112"/>
         <image name="circularBar" width="221" height="221"/>
         <image name="increase" width="67" height="45"/>
         <image name="instaLog" width="291" height="59"/>
