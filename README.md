@@ -1,4 +1,4 @@
-# **Maven**
+#Maven
 ### Hackathon Project for Hack The North
 ######Maven is a platform to compute social media influence and connect influencers, with the highest social index, with companies for advertisment. 
 
