@@ -1,6 +1,10 @@
 # **Maven**
 ### Hackathon Project for Hack The North
+######Maven is a platform to compute social media influence and connect influencers, with the highest social index, with companies for advertisment. 
 
+<img src="https://cloud.githubusercontent.com/assets/8840000/10228774/9c418ca4-6842-11e5-9e58-f0025200ff81.png" width="250" height="443.75" /> <img src="https://cloud.githubusercontent.com/assets/8840000/10228779/9f30d6a4-6842-11e5-83d4-6e54e7f72c5b.png" width="250" height="443.75" />  <img src="https://cloud.githubusercontent.com/assets/8840000/10401323/45a1b07c-6e8c-11e5-8155-7a84e3b430b8.png" width="250" height="443.75" />
+<img src="https://cloud.githubusercontent.com/assets/8840000/10401326/4843efa2-6e8c-11e5-85e8-34381a65843a.png" width="250" height="443.75" />
+<img src="https://cloud.githubusercontent.com/assets/8840000/10401329/4dfc750e-6e8c-11e5-9d0b-3a7dfada7cd6.png" width="250" height="443.75" />
 
 License Grant: Licensor hereby grants Licensee a Personal, Non-assignable & non-transferable, Pepetual, Non-commercial, Without the rights to create derivative works, Non-exclusive license, all with accordance with the terms set forth and other legal restrictions set forth in 3rd party software used while running Software.
 
